@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VillageGreen — Sustainable Village</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="logo">🌱 Village<span>Green</span></div>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#solutions">Solutions</a><a href="#needs">Needs</a><a href="#impact">Impact</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="badge">🌍 SMART • GREEN • COMMUNITY</span>
+    <h1>Building a better village for a better future.</h1>
+    <p>Explore practical ideas for clean water, sustainable farming, renewable energy, education and a healthier community.</p>
+    <div class="hero-buttons"><a class="btn primary" href="#solutions">Explore Solutions</a><a class="btn glass" href="#needs">Village Needs ↓</a></div>
+  </div>
+</section>
+
+<section class="quick">
+  <div><b>💧</b><strong>Clean Water</strong><span>Safe & reliable</span></div>
+  <div><b>🌾</b><strong>Green Farming</strong><span>Healthy agriculture</span></div>
+  <div><b>☀️</b><strong>Solar Energy</strong><span>Clean power</span></div>
+  <div><b>♻️</b><strong>Zero Waste</strong><span>Cleaner village</span></div>
+</section>
+
+<section id="solutions" class="section">
+  <div class="section-title"><span class="eyebrow">OUR SOLUTIONS</span><h2>See the future of a sustainable village</h2><p>Six connected areas that can improve everyday village life.</p></div>
+  <div class="picture-grid">
+    <article class="photo-card tall" style="background-image:url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=85')"><div><span>🌾</span><h3>Sustainable Agriculture</h3><p>Grow food while protecting soil and water.</p></div></article>
+    <article class="photo-card" style="background-image:url('https://images.unsplash.com/photo-1541913057-2a2b1f1c4f8d?auto=format&fit=crop&w=900&q=85')"><div><span>💧</span><h3>Water Management</h3><p>Harvest rain and use every drop wisely.</p></div></article>
+    <article class="photo-card" style="background-image:url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=85')"><div><span>☀️</span><h3>Renewable Energy</h3><p>Use solar power for homes and community spaces.</p></div></article>
+    <article class="photo-card" style="background-image:url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=85')"><div><span>♻️</span><h3>Waste Management</h3><p>Reduce, reuse, recycle and compost.</p></div></article>
+    <article class="photo-card" style="background-image:url('https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=85')"><div><span>🏥</span><h3>Healthcare</h3><p>Make health information and basic services accessible.</p></div></article>
+  </div>
+</section>
+
+<section id="needs" class="section colored">
+  <div class="section-title"><span class="eyebrow">COMMUNITY NEEDS</span><h2>What does a village need most?</h2></div>
+  <div class="needs">
+    <div class="need"><span>01</span><div><h3>Clean Drinking Water</h3><p>Reliable water supply and rainwater harvesting.</p></div></div>
+    <div class="need"><span>02</span><div><h3>Employment</h3><p>Local skills, businesses and better livelihood opportunities.</p></div></div>
+    <div class="need"><span>03</span><div><h3>Better Education</h3><p>Digital learning, vocational training and libraries.</p></div></div>
+    <div class="need"><span>04</span><div><h3>Healthy Environment</h3><p>Green spaces, sanitation and responsible waste systems.</p></div></div>
+  </div>
+</section>
+
+<section id="impact" class="section">
+  <div class="section-title"><span class="eyebrow">OUR IMPACT</span><h2>Small actions can create big change.</h2></div>
+  <div class="impact-grid">
+    <div class="impact-card"><strong>6</strong><span>Focus Areas</span></div><div class="impact-card"><strong>100%</strong><span>Community Focused</span></div><div class="impact-card"><strong>2030</strong><span>Future Vision</span></div><div class="impact-card"><strong>∞</strong><span>Ideas for Change</span></div>
+  </div>
+</section>
+
+<section class="banner">
+  <div><span class="eyebrow light-text">JOIN THE CHANGE</span><h2>Every village can become greener.</h2><p>Share your idea and help shape a stronger community.</p></div>
+  <a class="btn white" href="#contact">Share an Idea</a>
+</section>
+
+<section id="contact" class="section">
+  <div class="section-title"><span class="eyebrow">GET INVOLVED</span><h2>Tell us what your village needs</h2></div>
+  <form id="contactForm" class="form">
+    <div class="form-row"><input id="name" type="text" placeholder="Your name" required><input id="email" type="email" placeholder="Email address" required></div>
+    <select id="topic" required><option value="">Choose a topic</option><option>Water management</option><option>Agriculture</option><option>Renewable energy</option><option>Waste management</option><option>Healthcare</option><option>Education & skills</option></select>
+    <textarea id="message" rows="5" placeholder="Your idea or suggestion" required></textarea>
+    <button class="btn primary" type="submit">Send Suggestion</button><p id="formMessage"></p>
+  </form>
+</section>
+</main>
+
+<footer><div class="logo">🌱 Village<span>Green</span></div><p>© 2026 Sustainable Village Development</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
